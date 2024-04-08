@@ -1,13 +1,12 @@
 #include "BigSum.h"
 
 int main() {
-	int n;
+	int n = 0;
 
 	cout << "Input n: ";
 	cin >> n;
 
 	vector<long long> array(n);
-
 	for (int i = 0; i < n; i++) {
 		cout << "Input " << i + 1 << " value: ";
 		cin >> array[i];
