@@ -32,5 +32,6 @@ int main() {
     cout << "Proportion of negative numbers: " << setprecision(6) << negFract << endl;
     cout << "Proportion of zero numbers: " << setprecision(6) << zeroFract << endl << endl;
 
+    system("pause");
     return 0;
 }
