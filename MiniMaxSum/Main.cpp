@@ -4,8 +4,7 @@ int main() {
     unsigned long long minSum = numeric_limits<unsigned long long>::max();
     unsigned long long maxSum = 0;
     unsigned long long totalSum = 0;
-
-    int n;
+    int n = 0;
 
     cout << "Input n: ";
     cin >> n;
