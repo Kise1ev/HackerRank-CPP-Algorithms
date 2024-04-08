@@ -1,8 +1,8 @@
 ﻿#include "TimeConversion.h"
 
 int main() {
-    int hours, minutes, seconds;
-    char amPm;
+    int hours = 0, minutes = 0, seconds = 0;
+    char amPm = ' ';
 
     cout << "Input hours: ";
     cin >> hours;
@@ -16,14 +16,12 @@ int main() {
     cout << "Input A (AM)/P (PM): ";
     cin >> amPm;
 
-    if (amPm == 'A') {
-        if (hours == 12)
+    if (amPm == 'A') 
+         if (hours == 12)
             hours = 0;
-    }
-    else if (amPm == 'P') {
+    else if (amPm == 'P')
         if (hours < 12)
             hours += 12;
-    }
     else {
         cout << "Invalid input for A (AM)/P (PM)." << endl;
         return 1;
