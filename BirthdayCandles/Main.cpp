@@ -8,7 +8,6 @@ int main() {
     cin >> n;
 
     vector<int> heights(n);
-
     for (int i = 0; i < n; i++) {
         cout << "Input height of candle " << i + 1 << ": ";
         cin >> heights[i];
