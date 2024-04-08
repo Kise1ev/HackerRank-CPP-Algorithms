@@ -23,5 +23,6 @@ int main() {
     cout << "Minimum amount (excluding maximum number): " << totalSum - maxSum << endl;
     cout << "Maximum amount (excluding the minimum number): " << totalSum - minSum << endl << endl;
 
+    system("pause");
     return 0;
 }
